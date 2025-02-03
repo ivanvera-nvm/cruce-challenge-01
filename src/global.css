@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--font-mono: "Kode Mono Variable";
+	--font-sans: "Rokkitt Variable";
+}
